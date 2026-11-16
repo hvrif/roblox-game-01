@@ -1,0 +1,6 @@
+std = "roblox"
+
+[lints]
+# Roblox globals like `game` and `workspace` are fine; keep the rest strict.
+unused_variable = "warn"
+shadowing = "warn"
